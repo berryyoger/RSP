@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="player">
+        <div class="playerLead">
+            <img id="img" class="lead" src="rock.png">
+        </div>
+    </div>
+
+    <div class="monitor">
+        <div class="result">
+            
+        </div>
+        <div class="btnGrp">
+            <button onclick='document.getElementById("img").src="img/rock.png"' class="card rock">Rock</button>
+            <button onclick='document.getElementById("img").src="img/scissors.png"' class="card scissor">Scissor</button>
+            <button onclick='document.getElementById("img").src="img/paper.png"' class="card paper">Paper</button>
+        </div>
+    </div>
+
+    <div class="opponent">
+        <div class="opntLead">
+
+        </div>
+    </div>
+</body>
+    <script src="script.js"></script>
+</html>
